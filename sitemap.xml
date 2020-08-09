@@ -4,16 +4,21 @@
   
   <url>
     <loc>https://example.com/</loc>
-    <lastmod>2020-07-18T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/post/neowise/</loc>
-    <lastmod>2020-07-18T00:00:00+00:00</lastmod>
+    <loc>https://example.com/post/jeoarkeoloji/</loc>
+    <lastmod>2020-08-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/post/</loc>
+    <lastmod>2020-08-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/neowise/</loc>
     <lastmod>2020-07-18T00:00:00+00:00</lastmod>
   </url>
   
