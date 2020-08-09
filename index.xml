@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Elçin Ekşi</title>
-    <link>https://example.com/</link>
+    <link>https://elcineksi.com/</link>
     <description>Recent content on Elçin Ekşi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://elcineksi.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Jeoarkeolojiden bir kuple</title>
-      <link>https://example.com/post/jeoarkeoloji/</link>
+      <link>https://elcineksi.com/post/jeoarkeoloji/</link>
       <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/jeoarkeoloji/</guid>
+      <guid>https://elcineksi.com/post/jeoarkeoloji/</guid>
       <description>ANAMED geçen yıl olduğu gibi bu yıl da Çevresel Arkeolojii yaz okulu düzenedi.Geçtiğimiz bahar döneminde Vicky hocadan zaten çevresel arkeoloji alıyordum bunu pekiştirmek için bu eğitime&amp;rsquo;de başvurmuştum ve kabul edilmesi halinde Manisa&amp;rsquo;da Kaymakçı Arkeoloji Projesi&amp;rsquo;nde uygulamalı bir eğitime gidecektim. Ancak tabi ki herkes gibi pandemi sebebiyle benim planlarım da bozuldu. Eğitime kabul edildim ancak eğitim Kaymakçı&amp;rsquo;da uygulamalı olmak yerine Koç Üniversitesinin online eğitim platformunda sürdürüldü. Bu eğitimde derslerden birinde verilen kaynakçadaki bir kitap bölümünü sizlerle paylaşacağım.</description>
     </item>
     
     <item>
       <title>Neowise&#39;ı gördünüz mü?</title>
-      <link>https://example.com/post/neowise/</link>
+      <link>https://elcineksi.com/post/neowise/</link>
       <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/neowise/</guid>
+      <guid>https://elcineksi.com/post/neowise/</guid>
       <description>Bir yandan yaz sıcakları bir yandan pandemi, bir yandan bitmek bilmeyen saçmalıkların her gün daha da artması&amp;hellip;
 Çocukken geceleri gökyüzü daha parlaktı. Annemle babam çocukkense çok daha parlakmış. Küçükken anneannemin çatısız evinin damında çekirdek çitler muhabbet eder ve yıldızlara bakardık yaz gecelerinde. Sonra ben biraz büyüdüm. Astronomi şenlikleirnde teleskoplarla yıldızları izledim. Uzayın büyüsüne böyle eriştim.
 Uzun süredir evdeyim ve terasım ufku tamamen görmüyor. Ancak önümüzdeki günlerde Neowise&amp;rsquo;ı görmek için bir fırsat yaratcağım ve onu göreceğim.</description>
@@ -33,10 +33,10 @@ Uzun süredir evdeyim ve terasım ufku tamamen görmüyor. Ancak önümüzdeki g
     
     <item>
       <title>SARS-CoV-2 okula gitsin mi?</title>
-      <link>https://example.com/post/2020-03-09_coronavirus-okula/</link>
+      <link>https://elcineksi.com/post/2020-03-09_coronavirus-okula/</link>
       <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/2020-03-09_coronavirus-okula/</guid>
+      <guid>https://elcineksi.com/post/2020-03-09_coronavirus-okula/</guid>
       <description>Geçtiğimiz günlerde Milli Eğitim Bakanlığı 31 Ağustosta okulların açılacağını duyurdu. bu haberin ardından Sağlık Bakanlığı okullarda alınması gereken önlemleri paylaştı.
 Bu paylaşımlardan sonra her öğrenciye nasıl bir metre kare alan ayrılacak, öğrenciler maskelerle sınıfta oturabilecek mi, peki küçük sınıflardaki öğrencilerin hijyeni ne olacak, lise öğrencileri asilik mi yapacak kurallara uyacak mı gibi pek çok konu konuşuldu.
 Konuyla ilgili doktorların tutumuysa biraz daha temkinli olmak yönündeydi. Dün twitter üzerinde çok güzel bir twit zincirine denk geldim.</description>
@@ -44,10 +44,10 @@ Konuyla ilgili doktorların tutumuysa biraz daha temkinli olmak yönündeydi. D�
     
     <item>
       <title>Merhaba</title>
-      <link>https://example.com/post/merhaba/</link>
+      <link>https://elcineksi.com/post/merhaba/</link>
       <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/merhaba/</guid>
+      <guid>https://elcineksi.com/post/merhaba/</guid>
       <description>#Merhaba Herkese,
 Uzun süredir açmak istediğim blogu bugün açtım.
 Blogda genel olarak yaptığım işler, ilgimi çeken konular, çektiğim fotoğraflar, gördüklerim ve paylaşmak istediklerime yer vereceğim.
@@ -57,30 +57,30 @@ Bu blogu açmadan önce Medium&amp;rsquo;da blog tutuyordum. Daha sonra Django i
     
     <item>
       <title>Yenilik — Yer ve Zaman Bağlamı</title>
-      <link>https://example.com/post/2020-03-18_yenilik-yer-ve-zaman-ba-lam-e5d41e61361/</link>
+      <link>https://elcineksi.com/post/2020-03-18_yenilik-yer-ve-zaman-ba-lam-e5d41e61361/</link>
       <pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/2020-03-18_yenilik-yer-ve-zaman-ba-lam-e5d41e61361/</guid>
+      <guid>https://elcineksi.com/post/2020-03-18_yenilik-yer-ve-zaman-ba-lam-e5d41e61361/</guid>
       <description>Küresel bir salgın yani pandemi yaşamaktayız. Bu boyutta ve yaşamı bu kadar etkileyen bir salgını, hayatta olan insanlar olarak görmemiştik. Tarih kitaplarından vebayı, İspanyol gribini okumuştuk sadece. Şimdi yaşayarak tecrübe ediyoruz.
 Eski dönemlerden farklı olarak, artık teknolojimiz daha iyi. Hastalara daha iyi müdehale edebiliyoruz. Ancak bunun da bir limiti var. Özellikle malzeme ve insan kaynağı sınırlı. İnsan kaynağını bir şekilde telafi etseniz dahi çok özel aletler ve cihazları hızlıca temin etmek çok zor.</description>
     </item>
     
     <item>
       <title>Koronavirüs Belası</title>
-      <link>https://example.com/post/2020-03-08_g-ne-notlar-1-koronavir-s-belas-6413cd19bbc1/</link>
+      <link>https://elcineksi.com/post/2020-03-08_g-ne-notlar-1-koronavir-s-belas-6413cd19bbc1/</link>
       <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/2020-03-08_g-ne-notlar-1-koronavir-s-belas-6413cd19bbc1/</guid>
+      <guid>https://elcineksi.com/post/2020-03-08_g-ne-notlar-1-koronavir-s-belas-6413cd19bbc1/</guid>
       <description>Uzun süre sonra tekrar günlük yazma pratiğime geri dönüyorum. İlk gün koronavirüsle ilgili yaptıklarımı derleyeceğim. Dönüp baktığımda Ocak ortasından beri aslında yoğun bir mesai harcadığımı görüyorum.
 Gelelim bugüne… Geçtiğimiz haftadan beri hasta olmamdan dolayı hala halsizim. Nasıl bir hastalığım olduğu konusunda emin değilim. Güncel koronavirüs salgınıyla ilgisi olduğunu düşünmüyorum çünkü ateşim hiç yükselmiyor. Tahminim baharın gelmesi ve hava değişiminden kaynaklı. Biraz da tabi stres ve birikmiş yorgunluk da buna etki etti diye düşünüyorum.</description>
     </item>
     
     <item>
       <title>Koronavirüs ve Öcü Mutasyonları</title>
-      <link>https://example.com/post/2020-03-06_koronavir-s-ve-c-mutasyonlar-cfbe1474cccc/</link>
+      <link>https://elcineksi.com/post/2020-03-06_koronavir-s-ve-c-mutasyonlar-cfbe1474cccc/</link>
       <pubDate>Fri, 06 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/2020-03-06_koronavir-s-ve-c-mutasyonlar-cfbe1474cccc/</guid>
+      <guid>https://elcineksi.com/post/2020-03-06_koronavir-s-ve-c-mutasyonlar-cfbe1474cccc/</guid>
       <description>#Koronavirüs ve Öcü Mutasyonları
 Koronavirüs mutasyon mu geçiriyor? Bu mutasyonlar ne anlama geliyor? Mutasyon öcü mü? Virüs canlı mı cansız mı? Cevaplar burada!
 Neden böyle bir yazı yazdım? Yeni koronavirüs, covid-19 hastalık etkeni virüs ya da bilimsel ismiyle SARS-CoV-2, 2020 yılının başında Dünya’yı etkisi altına almaya başladı. Ve virüsler gündemin önemli aktörleri haline geldi. Virüslerle birlikte genler, DNA, mutasyon, virüs gibi pek çok insan için TV’den duydukları, bir kısmının lise biyolojisinden aşina olduğu kavramlar sık sık kullanılır oldu.</description>
@@ -88,10 +88,10 @@ Neden böyle bir yazı yazdım? Yeni koronavirüs, covid-19 hastalık etkeni vi
     
     <item>
       <title>Geleceği İnşa Etmek İstiyorum!</title>
-      <link>https://example.com/post/2018-08-29_gelece-i-n-a-etmek-stiyorum-d2bfbcf363c8/</link>
+      <link>https://elcineksi.com/post/2018-08-29_gelece-i-n-a-etmek-stiyorum-d2bfbcf363c8/</link>
       <pubDate>Wed, 29 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/2018-08-29_gelece-i-n-a-etmek-stiyorum-d2bfbcf363c8/</guid>
+      <guid>https://elcineksi.com/post/2018-08-29_gelece-i-n-a-etmek-stiyorum-d2bfbcf363c8/</guid>
       <description>Bu yazımı aldığım bir eposta ve bu eposta için verdiğim cevabı daha fazla insanın okuyabilmesi için hazırladım. E-postadan farklı olarak kolay okunabilmesi için başlıklar ekledim.
 Genç bir arkadaşımız aşağıdaki epostayı yazmış ve tavsiye istemiş. İlk başta okuduğunuzda imkansız şeyleri istiyormuş diyebilirsiniz. Ama şu meşhur sözü bence unutmamak lazım:
  Merhaba,
@@ -100,10 +100,10 @@ Genç bir arkadaşımız aşağıdaki epostayı yazmış ve tavsiye istemiş. İ
     
     <item>
       <title>Düğmeye Bas Gen Terapini Al</title>
-      <link>https://example.com/post/2018-07-01_d-meye-bas-gen-terapini-al-5b30c98c870/</link>
+      <link>https://elcineksi.com/post/2018-07-01_d-meye-bas-gen-terapini-al-5b30c98c870/</link>
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/2018-07-01_d-meye-bas-gen-terapini-al-5b30c98c870/</guid>
+      <guid>https://elcineksi.com/post/2018-07-01_d-meye-bas-gen-terapini-al-5b30c98c870/</guid>
       <description>#Düğmeye Bas Gen Terapini Al
 Risk almak, hata yapmak, yenilikçi düşünmek ve 28 yaşında bir kadın
 35 Yaş altı 35 Yenilikçi Geçtiğimiz günlerde MIT Tech Review “35 Innovators Under 35” 2018 listesini açıkladı. Listede 35 yaş altı önemli yenilikçi insanlar yer alıyor. Yaptıkları araştırmalar, geliştirdikleri ürünler ve ortaya çıkardıkları yeniliklerle insanlığın daha iyi bir noktaya gitmesini hedefleyen bu insanlar arasında bu yıl geçtiğimiz yıllardan daha fazla kadının yer alması sevindirici. Ayrıca kadınların sayısının erkeklerden fazla olması da önemli bir nokta.</description>
@@ -111,20 +111,20 @@ Risk almak, hata yapmak, yenilikçi düşünmek ve 28 yaşında bir kadın
     
     <item>
       <title>Tel Ömer, Telomer ve Sertab!</title>
-      <link>https://example.com/post/2017-11-06_tel-mer-telomer-ve-sertab-9b6b16c4023a/</link>
+      <link>https://elcineksi.com/post/2017-11-06_tel-mer-telomer-ve-sertab-9b6b16c4023a/</link>
       <pubDate>Mon, 06 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/2017-11-06_tel-mer-telomer-ve-sertab-9b6b16c4023a/</guid>
+      <guid>https://elcineksi.com/post/2017-11-06_tel-mer-telomer-ve-sertab-9b6b16c4023a/</guid>
       <description>#Tel Ömer, Telomer ve Sertab !
 Yeni duydum bu olayı. Meğersem kaç gündür ortalık bunlardan yıkılıyormuş. Tabi ana akım medya takip etmeyince böyle uzak kalıyorum memleketten. Bir telomer telaşesi, yaşlanmama akımı almış başını gitmiş. Bana lisans birinci sınıftaki halimizi hatırlatıyor resmen bu olaylar. Telomer ve telomerazı yeni öğrenen mini mini üniversiteli gençler olarak çok heyecanlanmıştık, kafamızda çılgın proje fikirleri uçuşmaya başlamıştı. Değil mi ya nasıl olurda o kadar bilim insanı bizim birinci sınıfta öğrendiğimiz şeyle ölümsüzlüğü keşfetmemişti… Hanyayı konyayı moleküler biyoloji dersine başlayınca anlamıştık.</description>
     </item>
     
     <item>
       <title>Senin Genin, Senin Kararın, Senin Labın</title>
-      <link>https://example.com/post/2017-05-23_senin-genin-senin-karar-n-senin-lab-n-fa5150fcfb3/</link>
+      <link>https://elcineksi.com/post/2017-05-23_senin-genin-senin-karar-n-senin-lab-n-fa5150fcfb3/</link>
       <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/2017-05-23_senin-genin-senin-karar-n-senin-lab-n-fa5150fcfb3/</guid>
+      <guid>https://elcineksi.com/post/2017-05-23_senin-genin-senin-karar-n-senin-lab-n-fa5150fcfb3/</guid>
       <description>#Senin Genin, Senin Kararın, Senin Labın
 O ortadaki yeşil eldivenli benim, bu güne kadar çekildiğim en güzel fotoğraflardan biri de bu :)
 Çoğunlukla gen terapisi, yüksek teknolojili lablarda, multimilyon dolarlarla ve geniş ekiplerle yürütülen araştırmalar sonucunda ortaya çıkan bir uygulama. Sağlık merkezlerinde, kliniklerde pek çok doktor ve araştırmacının birlikte geliştirdiği bir terapi… olarak biliyoruz biz.
@@ -133,30 +133,30 @@ O ortadaki yeşil eldivenli benim, bu güne kadar çekildiğim en güzel fotoğr
     
     <item>
       <title>Lütfen &#34;Atmayın&#34;</title>
-      <link>https://example.com/post/2016-11-28_l-tfen-atmay-n-32b560d32502/</link>
+      <link>https://elcineksi.com/post/2016-11-28_l-tfen-atmay-n-32b560d32502/</link>
       <pubDate>Mon, 28 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/2016-11-28_l-tfen-atmay-n-32b560d32502/</guid>
+      <guid>https://elcineksi.com/post/2016-11-28_l-tfen-atmay-n-32b560d32502/</guid>
       <description>#Lütfen “Atmayın”
 Soğuk bir Ankara kışı. Hepimiz zavallı öğrenciler olarak saatler süren bir moleküler biyoloji laboratuvar dersindeyiz. Bir de çok sevgili bir hocamız var. Öğrencilerin bir kısmı bu cevval hocamızdan hazzetmiyor. Ben ve bir grup öğrenci ise çok seviyoruz. Çünkü lafını esirgemeyen, doğru neyse onu söylemekten çekinmeyen bir adam. Ayrıca içten ve samimi. Neyse, diğer asistanlarla birlikte bize uygulamaları, hangi deneylerin yapılacağını, nasıl yapılacağını nelere dikkat etmemiz gerektiğini, hesaplamaları anlatıyorlar. Sonra deneylere başlıyoruz.</description>
     </item>
     
     <item>
       <title>Gelecek Genom&#39;da</title>
-      <link>https://example.com/post/2016-04-30_gelecek-genom-da-72eb5fee7d01/</link>
+      <link>https://elcineksi.com/post/2016-04-30_gelecek-genom-da-72eb5fee7d01/</link>
       <pubDate>Sat, 30 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/2016-04-30_gelecek-genom-da-72eb5fee7d01/</guid>
+      <guid>https://elcineksi.com/post/2016-04-30_gelecek-genom-da-72eb5fee7d01/</guid>
       <description>#Gelecek Genom’da
 DNA, gen, genom ya da genetik bir çok kelime ve kavram soru işaretleriyle birlikte pek çok insanın kafasını kurcalayan noktalar olarak ön plana çıkmakta. Ancak tüm bu kavram ve bilgiler hakkında sonsuz kaynak, google ile çok yakınınızda ve kolaylıkla ulaşılabilecek mesafede. Artık önemli olan bu kavram ve kelimelerin neden önemli olduğunu anlamak ve bu teknolojiyi nasıl kullanabileceğimiz üzerine düşünmek. Çünkü önümüzdeki kısa bir süre içinde yeni bir teknolojik kırılma yaşayacağız ve bu kırılma kesinlikle biyoteknolojide olacak.</description>
     </item>
     
     <item>
       <title>Her Yönüyle Zika Gerçeği!</title>
-      <link>https://example.com/post/2016-02-08_her-y-n-yle-zika-ger-e-i-c2054d67d960/</link>
+      <link>https://elcineksi.com/post/2016-02-08_her-y-n-yle-zika-ger-e-i-c2054d67d960/</link>
       <pubDate>Mon, 08 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/2016-02-08_her-y-n-yle-zika-ger-e-i-c2054d67d960/</guid>
+      <guid>https://elcineksi.com/post/2016-02-08_her-y-n-yle-zika-ger-e-i-c2054d67d960/</guid>
       <description>#Her Yönüyle Zika Gerçeği !
 Son günlerde sıklıkla bir virüsün adını duyuyoruz : “ZİKA” virüsü. Bir anda ortaya çıkan, Latin Amerika’da salgın yapan, Dünya Sağlık Örgütü’nü alarm durumuna geçiren bir virüs. Bir de sivrisineklerden bulaştığını ve küçükzika kafalı bebeklere sebep olduğunu duyuyoruz. Bunların dışında çok uzak görünüyor hepsi bize.
 Aslında konuyla ilgili pek çok ilginç nokta bulunuyor. Bir anda alarm verdirecek kadar önemli bir salgın yaşanıyor olması, gelen yolcularla Avrupa kıtasında da vaka kayıtlarının alınması, Teksas’taki vakadan yola çıkarak seks ile partnerlerden birbirine geçebildiğinin ortaya konması (mukozal salgılarla yani meni, tükrük vb.</description>
@@ -164,10 +164,10 @@ Aslında konuyla ilgili pek çok ilginç nokta bulunuyor. Bir anda alarm verdire
     
     <item>
       <title>Yaşamın Gücü</title>
-      <link>https://example.com/post/2015-11-12_ya-am-n-g-c-f85f2914d82b/</link>
+      <link>https://elcineksi.com/post/2015-11-12_ya-am-n-g-c-f85f2914d82b/</link>
       <pubDate>Thu, 12 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/2015-11-12_ya-am-n-g-c-f85f2914d82b/</guid>
+      <guid>https://elcineksi.com/post/2015-11-12_ya-am-n-g-c-f85f2914d82b/</guid>
       <description>#Yaşamın Gücü!
 Nasa’nın Mars’ta su bulmasını takiben vizyona giren The Martian “Bilimsel” yanıyla dikkat çekici bir özellik taşıyordu. Hakkında doğru ya…
 Nasa’nın Mars’ta su bulmasını takiben vizyona giren The Martian “Bilimsel” yanıyla dikkat çekici bir özellik taşıyordu. Hakkında doğru ya da spekülatif pek çok bilimsel değerlendirme yayınlandı. Kitaptaki detaylardan uzak olduğu vurgulandı ve pek çok şey konuşuldu. Bu yazıda filmle ilgili en az konuşulan konu olan bitki yetiştirme ve biyoteknolojiye dair yazacağım.</description>
@@ -175,10 +175,10 @@ Nasa’nın Mars’ta su bulmasını takiben vizyona giren The Martian “Bilims
     
     <item>
       <title>About</title>
-      <link>https://example.com/about/</link>
+      <link>https://elcineksi.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/about/</guid>
+      <guid>https://elcineksi.com/about/</guid>
       <description>Ben Elçin, ekoloji ve evrimle ilgilenen bir biyoloğum. Canlıların çeşitliliği, bu çeşitliliğin kaynakları, doğada neler olup bittiğiyle ilgileniyorum. Bununla birlikte gördüklerimi, öğrendiklerimi herkesle paylaşmaktan büyük keyif alıyorum.
  Bilim Kutusu projemizde çocuklar için ilham verici deney setleri tasarlıyorum, Bilimma.com platformunda editörüm ve meraklıları için bilim haberleri ve popüler bilim yazıları yazıyorum. Bilim Kutusu&amp;lsquo;nu Instagram&amp;lsquo;dan takip edebilir, çevrenizle paylaşabilirsiniz.
   Akademik olarak daha önce sivrisineklerde insektisit direnciyle ilgili çalışmalar yürüttüm. Daha sonra bir süre koyunlarda evcilleştirme ve antik DNA ile ilgili çalışmalara katıldım.</description>
