@@ -6,13 +6,13 @@
     <description>Recent content on Elçin Ekşi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Dec 2020 05:35:25 +0300</lastBuildDate><atom:link href="https://elcineksi.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Dec 2020 08:32:49 +0300</lastBuildDate><atom:link href="https://elcineksi.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Rvrgiyhub</title>
-      <link>https://elcineksi.com/rvrgiyhub/</link>
+      <title>R ve Github</title>
+      <link>https://elcineksi.com/post/rvrgiyhub/</link>
       <pubDate>Mon, 21 Dec 2020 08:32:49 +0300</pubDate>
       
-      <guid>https://elcineksi.com/rvrgiyhub/</guid>
+      <guid>https://elcineksi.com/post/rvrgiyhub/</guid>
       <description>Bu dönem Zeynep Hoca&amp;rsquo;dan arkeometride veri analizi dersi alıyorum. Derste veri analizi için R ve RStudio kullanıyoruz. Normalde içinde kod geçen çalışmalarımı olabildiğince GitHub&amp;rsquo;da tutmaya çalışıyorum. Bu ders ve konuyla ilgili alıştırmaları da GitHub&amp;rsquo;da tutmak istedim. Bunun için de RStudio&amp;rsquo;yu GitHub&amp;rsquo;a bağladım.
 Adım adım nasıl yaptığımı paylaşacağım:
 1-) GitHub&amp;rsquo;ınız var mı?
