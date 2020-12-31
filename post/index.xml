@@ -6,7 +6,27 @@
     <description>Recent content in Posts on Elçin Ekşi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Dec 2020 08:32:49 +0300</lastBuildDate><atom:link href="https://elcineksi.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Dec 2020 16:54:37 +0300</lastBuildDate><atom:link href="https://elcineksi.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hepinizle çalışmak isterim!</title>
+      <link>https://elcineksi.com/post/hepinizle/</link>
+      <pubDate>Wed, 30 Dec 2020 16:54:37 +0300</pubDate>
+      
+      <guid>https://elcineksi.com/post/hepinizle/</guid>
+      <description>.
+Bir ay önce 2 Aralık&amp;rsquo;ta bir iş ilanı yayınladık. Eres Biyoteknoloji olarak yapacağımız online etkinliklerde proje bazlı olarak organizasyon ve moderasyondan sorumlu bir ekip arkadaşı aradığımızı Linkedin üzerinden duyurduk.
+Bu iş ilanını yayınlar yayınlamaz pek çok başvuru gelmeye başladı. Gerek e-posta olarak gerekse Linkedin üzerinden başvurular kısa ya da uzun ön yazılarla geldi. Bir çok başvuru gelmiş olmasına rağmen hepsini tek tek okudum ve inceledim. Pek çok farklı insanı tanıdım.</description>
+    </item>
+    
+    <item>
+      <title>RStudio&#39;ya hızlıca bir bakış</title>
+      <link>https://elcineksi.com/post/rstudioyabaslangic/</link>
+      <pubDate>Tue, 22 Dec 2020 15:19:53 +0300</pubDate>
+      
+      <guid>https://elcineksi.com/post/rstudioyabaslangic/</guid>
+      <description>R Studio&amp;rsquo;ya hızlıca bir bakalım. R studio&amp;rsquo;yu açtığınızda karşınızda 4 tane pencere göreceksiniz. Biri R merhaba</description>
+    </item>
+    
     <item>
       <title>R ve Github</title>
       <link>https://elcineksi.com/post/rvrgiyhub/</link>
