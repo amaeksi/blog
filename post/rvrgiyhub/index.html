@@ -203,11 +203,11 @@ g data-v-423bf9ae="" id="c67634de-f1ab-490f-a5df-682b25ef3542" fill="#000000" tr
 <p>2-) R ve RStudio&rsquo;nuz güncel mi ?</p>
 <p>Bilgisayarınızda R ve RStudio yüklü olması gerekiyor. Ya da yüklüyse güncellemeyi unutmayın.</p>
 <p>Bilgisayarınızda hangi R sürümü var kontrol etmek için terminali açıp</p>
-<pre><code>R -  -version
-</code></pre><p>yazmanız yeterli. Gelen cevapta hangi sürüm olduğunu göreceksiniz.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">R -  -version
+</code></pre></div><p>yazmanız yeterli. Gelen cevapta hangi sürüm olduğunu göreceksiniz.</p>
 <p>R&rsquo;ın hangi versiyonunun yüklü olduğunu RStudio&rsquo;dan da kontrol edebilirsiniz. Bunun içinde RStudio&rsquo;da</p>
-<pre><code>R.version.string
-</code></pre><p>yazmanız yeterli.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">R.version.string
+</code></pre></div><p>yazmanız yeterli.</p>
 <p>Eğer R ve R Studio bilgisayarınızda yüklü değilse şurada anlattığım gibi kolayca kurabilirsiniz: <a href="https://elcineksi.com/post/r-baslangic/">https://elcineksi.com/post/r-baslangic/</a></p>
 <p>3-) Git&rsquo;i kurdunuz mu?</p>
 <p>Bilgisayarınızda gitin yüklü olması gerekiyor. Bunun için öncelikle olup olmadığına hangi versiyonunun olduğuna bakmanız faydalı:</p>
@@ -215,25 +215,25 @@ g data-v-423bf9ae="" id="c67634de-f1ab-490f-a5df-682b25ef3542" fill="#000000" tr
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">which git
 git --version
 </code></pre></div><p>Eğer bilgisayarınızda git yoksa aşağıdakileri yazarak kurabilrisiniz:</p>
-<pre><code>brew install git
-</code></pre><p>Windows için ise şuradaki yöntemleri inceleyebilirsiniz: <a href="https://gitforwindows.org">https://gitforwindows.org</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">brew install git
+</code></pre></div><p>Windows için ise şuradaki yöntemleri inceleyebilirsiniz: <a href="https://gitforwindows.org">https://gitforwindows.org</a></p>
 <p>Ubuntu&rsquo;da ise şu şekilde kurabilirsiniz:</p>
-<pre><code>sudo apt-get install git
-</code></pre><p>4-) Şimdi bir github hesabınız ve bilgisayarınızda da Git var. github hesabınızı kendi bilgisayarınızdan kullanmak için aşağıdakileri yapabilirsiniz:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get install git
+</code></pre></div><p>4-) Şimdi bir github hesabınız ve bilgisayarınızda da Git var. github hesabınızı kendi bilgisayarınızdan kullanmak için aşağıdakileri yapabilirsiniz:</p>
 <p>Önce git&rsquo;e kendinizi aşağıdaki şekilde tanıtın. Bu işlem için github&rsquo;daki e-posta adresinizi kullanın.</p>
-<pre><code>git config --global [user.name](&lt;http://user.name/&gt;) 'Jane Doe'
-git config --global user.email 'jane@example.com'
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git config --global <span style="color:#f92672">[</span>user.name<span style="color:#f92672">](</span>&lt;http://user.name/&gt;<span style="color:#f92672">)</span> <span style="color:#e6db74">&#39;Jane Doe&#39;</span>
+git config --global user.email <span style="color:#e6db74">&#39;jane@example.com&#39;</span>
 git config --global --list
-</code></pre><p>Sonra github hesabınızı bağlayın:</p>
+</code></pre></div><p>Sonra github hesabınızı bağlayın:</p>
 <p>Öncelikle github hesabınıza girin ve menüden yada profil sayfanızdan yeni bir repository (repo) oluşturun. Yeşil &ldquo;New&rdquo; tuşu bu işi görüyor. Ben bir myrepo ismini verdiğim repo açtım ve içine de bir README.txt açıp açıklamasını yazdım: &ldquo;test repository for R&rdquo;</p>
 <p>Eğer iki bilgisayarınız ve tek bir github hesabınız varsa ve her iki bilgisayarınızdan da bu hesaba push edecekseniz, dikkat etmek gereken diğer bir nokta da her iki cihazında güncel olması. Bu ne demek, push ederek github&rsquo;a gönderdiğimiz gibi pull ederek github&rsquo;dan güncellemeleri çekebiliyoruz ve her iki cihazından güncel olması önemli demek.</p>
 <p>Şimdi bu bilgisayarımda https yöntemini kullanarak, R ile ilgili dosyalarımın olduğu klasöre, github repositorymi çekeceğim. Ancak, bu bilgisayarda github ile hiç işlem yapmadığım için github hesabım yetkilendirilmemiş (authorize olmamış), eğer repom public olmasaydı repoyu ilk çektiğimde bana kullanıcı adı şifre soracak ve bunları az önce kurduğumuz git kendi ayarlarına kaydedecekti.Ancak &ldquo;myrepo&rdquo; public olduğu için ilk kez klonlarken bana bunları sormayacak. Ancak push ederken yine soracak.</p>
 <p>Çekmek için öncelikle github&rsquo;da yeni açtığım reponun (myrepo) anasayfasındaki yeşil &ldquo;Code&rdquo; düğmesine tıklayıp, oradaki https bağlantısını kopyalıyorum. Kopyaladığım https linkini şöyle çalıştırıyorum:</p>
-<pre><code>git clone https://...
-</code></pre><p>Daha sonra ilgili klasöre gidip baktığınızda github&rsquo;da myrepo altında bulunan dosyalarınız gelmiş olduğunu göreceksiniz. Bu klasöre bakmak için doğrudan gidip klasörlerini kontrol edebilirsiniz. Ancak bunun yanı sıra terminale şunları yazarak da bu reponun içindekileri kontrol edebilirsiniz:</p>
-<pre><code>cd myrepo
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://...
+</code></pre></div><p>Daha sonra ilgili klasöre gidip baktığınızda github&rsquo;da myrepo altında bulunan dosyalarınız gelmiş olduğunu göreceksiniz. Bu klasöre bakmak için doğrudan gidip klasörlerini kontrol edebilirsiniz. Ancak bunun yanı sıra terminale şunları yazarak da bu reponun içindekileri kontrol edebilirsiniz:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd myrepo
 ls
-</code></pre><hr>
+</code></pre></div><hr>
 <p><strong>Şimdi son durumu bir gözden geçirelim.</strong></p>
 <p>1-) Github hesabı açtık.</p>
 <p>2-) R ve R Studio&rsquo;yu güncelledik</p>
@@ -241,26 +241,26 @@ ls
 <p>4-) Git ve github&rsquo;ı bağladık, github&rsquo;da ilk repomuzu açtık ve githubdaki repoları bilgisayarımıza çektik</p>
 <hr>
 <p>Şimdi ise şunu yapacağız. Gelen dosyalardaki değişiklikleri github&rsquo;daki dosyalara da göndereceğiz. Yani githubdaki master branch&rsquo;ı localde (yani bilgisayarımızda) yaptığımız değişikliklerle güncel tutma işini nasıl yapacağımızı deneyerek öğrenelim. Normalde terminalden</p>
-<pre><code>git push origin master
-</code></pre><p>yazmanız bu işe yarıyor. Ancak bu çalışmada daha çok R ve RStudio odaklı olacağız.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git push origin master
+</code></pre></div><p>yazmanız bu işe yarıyor. Ancak bu çalışmada daha çok R ve RStudio odaklı olacağız.</p>
 <p>Öncelikle dosyada değişiklik yapalım. Bu ne olabilir. myrepo klasöründe yeni bir klasör açsam ve içine bir dosya koysam bu değişiklik gidecek mi bunu kontrol edebilirim. Ancak boş klasörler push yaptığımda gitmeyecektir. Bundan başka pull diyerek çektiğimiz dosyaların içindeki README.txt dosyasında değişiklik yapıp, bu değişikliği master brancha yollamayı deneyeceğim.</p>
 <p>README.txt içinde değişiklik yapmamın bir yolu dosyayı açıp bir metin editöründe içine bir şeyler yazabilirim. Ancak bunu yapmayacağım. Bunun yerine, terminalde yazdıklarımı echo ile dosyanın içine yazdıracağım. Bununla ilgili detaylı bilgiyi Emre&rsquo;nin şu (<a href="https://emre.xyz/unix-girdi-cikti-yonlendirme">https://emre.xyz/unix-girdi-cikti-yonlendirme</a>) yazısından okuyabilirsiniz. Ancak ben sadece nasıl yapıldığını göstereceğim.</p>
-<pre><code>echo &quot;The first update from mac mini.&quot; &gt;&gt; README.md
-</code></pre><p>echo ile &raquo;README.md dosyası içine bu cümleyi yazdım. Şimdi bu değişiklikleri kontrol edeceğim. Git değişiklik var mı yok mu bana söyleyecek. Bunun için şunu yazıyorum:</p>
-<pre><code>git status
-</code></pre><p>git bana dosyanın modified olduğunu belirtti. Bundan sonraki adım bu dosyayı github&rsquo;a göndermek ve master branch altında birleştirmek.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo <span style="color:#e6db74">&#34;The first update from mac mini.&#34;</span> &gt;&gt; README.md
+</code></pre></div><p>echo ile &raquo;README.md dosyası içine bu cümleyi yazdım. Şimdi bu değişiklikleri kontrol edeceğim. Git değişiklik var mı yok mu bana söyleyecek. Bunun için şunu yazıyorum:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git status
+</code></pre></div><p>git bana dosyanın modified olduğunu belirtti. Bundan sonraki adım bu dosyayı github&rsquo;a göndermek ve master branch altında birleştirmek.</p>
 <p>github&rsquo;a (Yayın evindeki kitap olsun mesela) yaptığımız değişiklikleri kuryeyle gönderdiğimizi düşünelim. Kuryeye sadece değişiklik yaptığımız sayfayı verebiliriz, kuryeye değişiklikle birlikte tüm kitabı verebiliriz vb.. github&rsquo;a çeşitli detaylarla dosyayı göndermemiz mümkün bunları aşağıdaki kodlarla yapabiliriz:</p>
-<pre><code>add -A
-</code></pre><p>kurye kardeş bul değişiklikleri al götür, ( okuyucunun görmeyeceği duvara yapıştırılmış kitap yazarken kullanılan post-itler de buna dahil)</p>
-<pre><code>git add dosya_adi
-</code></pre><p>kurye kardeş değişiklikler bunlar, bu sayfaları götür.</p>
-<pre><code>git add *
-</code></pre><p>kuryeci değişikliklerin hepsini götür ama duvardaki post-itler kalsın</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">add -A
+</code></pre></div><p>kurye kardeş bul değişiklikleri al götür, ( okuyucunun görmeyeceği duvara yapıştırılmış kitap yazarken kullanılan post-itler de buna dahil)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git add dosya_adi
+</code></pre></div><p>kurye kardeş değişiklikler bunlar, bu sayfaları götür.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git add *
+</code></pre></div><p>kuryeci değişikliklerin hepsini götür ama duvardaki post-itler kalsın</p>
 <p>Tabi kuryeye taşıdığı yük hakkında bir de irsaliye vereceğiz; aşağıdaki kodla:</p>
-<pre><code>git commit -m &quot;A commit from my local-mac mini&quot;
-</code></pre><p>Kurye artık yola çıkabilir!</p>
-<pre><code>git push
-</code></pre><p>Aa! o da nesi! Şimdi github hesabımda kullandığım kullanıcı adımı ve şifremi gireceğim ve sonra lokal güncellemelerim githuba gidecek.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git commit -m <span style="color:#e6db74">&#34;A commit from my local-mac mini&#34;</span>
+</code></pre></div><p>Kurye artık yola çıkabilir!</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git push
+</code></pre></div><p>Aa! o da nesi! Şimdi github hesabımda kullandığım kullanıcı adımı ve şifremi gireceğim ve sonra lokal güncellemelerim githuba gidecek.</p>
 <p>Peki bu işlemi yaparken her seferinde şifre girmem gerekecek mi? Buradaki yöntemle yaptıysanız teorik olarak gerekmemesi lazım.</p>
 <p>Hadi hızlıca bir tekrar yapalım.</p>
 <p>1-) Terminali açalım. Dosyaya gidelim.</p>
@@ -275,26 +275,26 @@ ls
 <p>Sonra da R ve RStudio&rsquo;ya sıra gelecek.</p>
 <p>Bu kapıyı çalmadan gelip gitme olayı için şurada yazan yönergeleri (<a href="https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh">https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh</a>) takip edeceğiz.</p>
 <p>1-) Elimizde hiç githuba verecek anahtar var mı hemen bir kontrol edelim:</p>
-<pre><code>cat ~/.ssh/id_rsa.pub
-</code></pre><p>Sonuçta &ldquo;No such file or directory&rdquo; diyorsa anahtarımız yok demek. Hemen çilingire gitmiyoruz. Kendimiz üretebiliyoruz. Nasıl yapıyoruz:</p>
-<pre><code>ssh-keygen -t rsa
-</code></pre><p>yazıyoruz ve evet evet diye diye anahtarı ürettiriyoruz.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cat ~/.ssh/id_rsa.pub
+</code></pre></div><p>Sonuçta &ldquo;No such file or directory&rdquo; diyorsa anahtarımız yok demek. Hemen çilingire gitmiyoruz. Kendimiz üretebiliyoruz. Nasıl yapıyoruz:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ssh-keygen -t rsa
+</code></pre></div><p>yazıyoruz ve evet evet diye diye anahtarı ürettiriyoruz.</p>
 <p>sonra anahtar geldi mi hemen kontrol edelim tekrar:</p>
-<pre><code>cat ~/.ssh/id_rsa.pub
-</code></pre><p>bunun sonucunda bize ;</p>
-<pre><code>ssh-rsa XYZXYZXYZABCABC...........KLMKLM...... PRTPRT....MNOMNO.....ZXYZXYZABCABC...........KLMKLM...... PRTPRT....MNOMNO.....ZXYZXYZABCABC...........KLMKLM...... PRTPRT....MNOMNO.....ZXYZXYZABCABC...........KLMKLM...... PRTPRT....MNOMNO.....
-</code></pre><p>gibi bir şey verecek. Bu anahtar işte. Bu ürettiğimiz anahtarı sadece github&rsquo;la seviyeli bir ilişki için kullanacağız. Hemen <a href="https://github.com/settings/keys">https://github.com/settings/keys</a> adresine gideceğiz. SSH key lere bakacağız. Yeşil New SSH Key düğmesine tıklayacağız. Bu anahtarımızı yapıştıracağız. Ve ta taa&hellip; Bilgisayarımız ve github hesabımız bağlandı. Artık bize hiçbir işlemde şifre sormayacak.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cat ~/.ssh/id_rsa.pub
+</code></pre></div><p>bunun sonucunda bize ;</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ssh-rsa XYZXYZXYZABCABC...........KLMKLM...... PRTPRT....MNOMNO.....ZXYZXYZABCABC...........KLMKLM...... PRTPRT....MNOMNO.....ZXYZXYZABCABC...........KLMKLM...... PRTPRT....MNOMNO.....ZXYZXYZABCABC...........KLMKLM...... PRTPRT....MNOMNO.....
+</code></pre></div><p>gibi bir şey verecek. Bu anahtar işte. Bu ürettiğimiz anahtarı sadece github&rsquo;la seviyeli bir ilişki için kullanacağız. Hemen <a href="https://github.com/settings/keys">https://github.com/settings/keys</a> adresine gideceğiz. SSH key lere bakacağız. Yeşil New SSH Key düğmesine tıklayacağız. Bu anahtarımızı yapıştıracağız. Ve ta taa&hellip; Bilgisayarımız ve github hesabımız bağlandı. Artık bize hiçbir işlemde şifre sormayacak.</p>
 <p>Peki önceki myrepo&rsquo;da kullandığımız HTTPS ayarı ne olacak? myrepo (ya da hangi isimle açtıysanız) klasörünüzün içinde terminalden</p>
-<pre><code>cat .git/config
-</code></pre><p>komutunu çalıştırdığınız zaman HTTPS ayarlarını da göreceksiniz. Bunlara manuel müdahale de edebilirsiniz. Ancak biz temiz çalışmayı prensip edineceğimiz için böyle işler yapmayacağız. Ne yapacağız peki?</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cat .git/config
+</code></pre></div><p>komutunu çalıştırdığınız zaman HTTPS ayarlarını da göreceksiniz. Bunlara manuel müdahale de edebilirsiniz. Ancak biz temiz çalışmayı prensip edineceğimiz için böyle işler yapmayacağız. Ne yapacağız peki?</p>
 <p>1-) Aşağıdaki komutu yazıp reponun remote origin adresini sileceğiz:</p>
-<pre><code>git remote remove origin
-</code></pre><p>Bir de şu aşağıdakini yazıp iyice emin olalım:</p>
-<pre><code>git remote -v
-</code></pre><p>2-) myrepo&rsquo;nun originini sildik. Şimdi yeni originini ekleyeceğiz. Bunun için github&rsquo;a gidiyoruz, ilgili repoya giriyoruz, yeşil &ldquo;Code&rdquo; düğmesine tıklıyoruz, SSH&rsquo;yi seçiyoruz, oradaki linki kopyalıyoruz.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git remote remove origin
+</code></pre></div><p>Bir de şu aşağıdakini yazıp iyice emin olalım:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git remote -v
+</code></pre></div><p>2-) myrepo&rsquo;nun originini sildik. Şimdi yeni originini ekleyeceğiz. Bunun için github&rsquo;a gidiyoruz, ilgili repoya giriyoruz, yeşil &ldquo;Code&rdquo; düğmesine tıklıyoruz, SSH&rsquo;yi seçiyoruz, oradaki linki kopyalıyoruz.</p>
 <p>3-) Geliyoruz terminale, aşağıdaki komutu çalıştırıp yeni origini ekliyoruz:</p>
-<pre><code>git remote add origin git@github.com:kullanıcıadi/myrepo.git
-</code></pre><p>Evet bu dosyanın erişim ayarlarını da düzelttik. Şimdi konumuz olan R ve RStudio&rsquo;ya dönebiliriz.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git remote add origin git@github.com:kullanıcıadi/myrepo.git
+</code></pre></div><p>Evet bu dosyanın erişim ayarlarını da düzelttik. Şimdi konumuz olan R ve RStudio&rsquo;ya dönebiliriz.</p>
 <p>RStudio&rsquo;yu açıyoruz. Şu yolu takip edip git ve github repomuzu klonluyoruz. File &gt; New Project &gt; Version Control &gt; Git.</p>
 <p>Açılan pencereye;</p>
 <p>reponuzun SSH adresini girin, adını girin ve &ldquo;devam et&rdquo;&lsquo;e tıklayın sonra size bir sorusu olacak, okuyun ve yes diyerek devam edin.</p>
@@ -302,12 +302,12 @@ ls
 <p>Sağ üstteki kutunun üstünde Environment, History, Connections, Git ve Tutorial diye sekmeler göreceksiniz. Evet buradaki Git sekmesine tıklıyoruz. Sonra orada karşımıza README dosyası çıkacak. README dosyasının staged sütununa check atıyoruz. Sonra Environment, History, Connections, Git ve Tutorial yazan sekmelerin altında &ldquo;Commit&rdquo; tuşu gözünüze ilişecek. Buraya yorumumuzu yazıyoruz. Sonra da yukarı yeşil ok, PUSH, ile github&rsquo;a bu dosyayı gönderiyoruz. Eğer github&rsquo;dan dosya çekecek olsaydık aşığı mavi oka tıklayıp PULL ile çekecektik.</p>
 <p>Lokal repomuzla github repomuzu birbirine denkleştireceğiz. github&rsquo;a gidip bir repo açıyoruz. Bu reponun SSH adresini (Code yazan yeşil buton-SSH) kopyalıyoruz. Bundan sonra takip edilebilecek iki yol var. Biri terminalde diğeri ise RStudio&rsquo;da. Ben şimdi RStudio&rsquo;daki yöntemi takip edeceğim.</p>
 <p>Sağ üstteki Git kutusunun orda iki mor, bir beyaz dikdörtgenden oluşan bir buton var. Remote oluşturmaya yarıyor. Tıklıyoruz bu kutuya. Add remote düğmesine tıklıyoruz. İsim veriyoruz, SSH linkini yapıştırıyoruz ve ok diyoruz. Bize şöyle bir yanıt verecek :</p>
-<pre><code>&gt; &gt; &gt; /usr/bin/git checkout -B branch Switched to a new branch 'branch'
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&gt; &gt; &gt; /usr/bin/git checkout -B branch Switched to a new branch <span style="color:#e6db74">&#39;branch&#39;</span>
 &gt;
-&gt; &gt; &gt; /usr/bin/git push -u testhub branch remote: remote: Create a pull request for 'branch' on GitHub by visiting: remote: https://github.com/kullaniciadi/testrepo/pull/new/branch remote: To [github.com](http://github.com/):kullaniciadi/testrepo.git
+&gt; &gt; &gt; /usr/bin/git push -u testhub branch remote: remote: Create a pull request <span style="color:#66d9ef">for</span> <span style="color:#e6db74">&#39;branch&#39;</span> on GitHub by visiting: remote: https://github.com/kullaniciadi/testrepo/pull/new/branch remote: To <span style="color:#f92672">[</span>github.com<span style="color:#f92672">](</span>http://github.com/<span style="color:#f92672">)</span>:kullaniciadi/testrepo.git
 
-- [new branch] branch -&gt; branch Branch 'branch' set up to track remote branch 'branch' from 'testhub'.
-</code></pre><p>Kısaca RStudio&rsquo;da yaptığımız işleri github repomuzda tutmak için bu işlemleri yapmamız yeterli. Şimdilik bitti diyebiliriz. Ancak tabii ki çok daha detaylı çalışmanız mümkün. Ben bu çalışmayı yaparken aşağıdaki happygitwithr.com&rsquo;dan temel olarak faydalandım. İki farklı bilgisayardan tek GitHub hesabıma commit etmeyi Emre ile birlikte çözdüm ve çoğu işlemi daha hızlı yapmam konusunda bana yardımcı oldu.</p>
+- <span style="color:#f92672">[</span>new branch<span style="color:#f92672">]</span> branch -&gt; branch Branch <span style="color:#e6db74">&#39;branch&#39;</span> set up to track remote branch <span style="color:#e6db74">&#39;branch&#39;</span> from <span style="color:#e6db74">&#39;testhub&#39;</span>.
+</code></pre></div><p>Kısaca RStudio&rsquo;da yaptığımız işleri github repomuzda tutmak için bu işlemleri yapmamız yeterli. Şimdilik bitti diyebiliriz. Ancak tabii ki çok daha detaylı çalışmanız mümkün. Ben bu çalışmayı yaparken aşağıdaki happygitwithr.com&rsquo;dan temel olarak faydalandım. İki farklı bilgisayardan tek GitHub hesabıma commit etmeyi Emre ile birlikte çözdüm ve çoğu işlemi daha hızlı yapmam konusunda bana yardımcı oldu.</p>
 <p>Faydalanılan kaynaklar:</p>
 <p><a href="https://happygitwithr.com/rstudio-git-github.html">https://happygitwithr.com/rstudio-git-github.html</a></p>
 <p><a href="https://uvastatlab.github.io/phdplus/installR.html">https://uvastatlab.github.io/phdplus/installR.html</a></p>
@@ -393,7 +393,7 @@ ls
       <div class="footer-hr"></div>
       <div class="footer-container">
         <div class="footer-text">
-          © 2020 Elçin Ekşi
+          © 2021 Elçin Ekşi
         </div>
         <div class="social-icon-outer">
     <div class="social-icon-container">
